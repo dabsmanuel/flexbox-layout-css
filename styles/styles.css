@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@800&family=Poppins:wght@300&family=Roboto+Mono:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url('/images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1em;
+}
+
+/* header section */
+/* navbar styles */
+
+nav {
+    background-color: #000;
+    padding: 0.1rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0em 4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: rgb(200, 200, 200);
+    border-bottom: 1px solid #fff;
+    transition: 0.3s ease-in;
+}
+
+nav ul li a > img{ 
+    margin-top: 10px;
+}
+
+
+nav ul li a > img:hover{
+    transform: rotate(2.0turn);
+    transition: 1s ease-in;
+}
+.hamburger {
+    display: none;
+}
+
+
+/*end of header section */
+/* end of navbar styles */
+
+
+/* grid wrapper section */
+
+.grid-wrapper {
+    margin: 4em;
+    display: grid;
+    place-items: center;
+    background-color: #000;
+    padding: 2em;
+    border-radius: 5px;
+    height: 120vh;
+}
+
+.grid-wrapper .writer {
+    display: grid;
+    place-items: center;
+}
+
+.grid-wrapper .writer h1{
+    color: rgb(187, 123, 5);
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    height: 2em;
+    font-size: 3rem;
+}
+
+.wrapper .writer p {
+    color: rgb(241, 241, 241);
+    margin-top: -1em;
+    /* font-size: larger; */
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    padding: 0em 2rem;
+}
+
+.grid {
+    display: flex;
+    padding: 0em 2em;
+}
+
+.grid p {
+    text-align: center;
+    margin-top: -1em;
+}
+
+.grid .one, .two, .three {
+    /* padding: 2rem; */
+    border: 2px solid #ffff;
+    display: grid;
+    place-items: center;
+    margin: 1rem;
+    color: #ffff;
+    padding: 2em 4em;
+    height: 25em;
+}
+
+button {
+    background: none;
+    color: #41C3F6;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+}
+
+/* end of grid-wrapper section */
+
+/* footer */
+
+footer {
+    background: #000;
+    color: #fff;
+    height: 6em;
+    font-size: small;
+    display: grid;
+    place-items: center;
+}
+
+footer .apt {
+    margin-top: -0.5rem;
+}
+
+footer .apt span img {
+    width: 1em;
+    background-color: red inset;
+}
