@@ -1,7 +1,7 @@
 @media only screen and (max-width: 900px) {
-/* body {
+body {
   width: 100%;
-} */
+}
 
 /* navbar */
 
@@ -26,8 +26,6 @@
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-
-nav {}
 
 .nav-menu{
   position: fixed;
