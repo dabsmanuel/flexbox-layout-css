@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -1em;
+    /* margin-top: -1em; */
 }
 
 /* header section */
@@ -60,9 +60,14 @@ nav ul li a > img{
 
 
 nav ul li a > img:hover{
-    transform: rotate(2.0turn);
+    transform: rotate(2turn);
     transition: 1s ease-in;
 }
+
+.hamburger-section {
+	display: none;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -77,8 +82,6 @@ nav ul li a > img:hover{
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
-    /* float: right; */
-    margin-left: 48em;
 }
 
 
@@ -129,7 +132,9 @@ nav ul li a > img:hover{
     margin-top: -1em;
 }
 
-.grid .one, .two, .three {
+.grid .one, 
+.two, 
+.three {
     /* padding: 2rem; */
     border: 2px solid #ffff;
     display: grid;
